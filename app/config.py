@@ -6,7 +6,7 @@ class Config:
 
     # RabbitMQ configuration for Celery
     CELERY_BROKER_URL = 'amqps://bbinvvqj:Q5UOXa2UpvsQP3zoOFb1WcNaPwgOCBUL@chimpanzee.rmq.cloudamqp.com/bbinvvqj'
-    CELERY_RESULT_BACKEND = 'rpc://'
+    result_backend = 'rpc://'
 
     # Provided API endpoint for task activity (adjust as needed)
     API_ENDPOINT = "https://startupworld.in/Version1/get_task_activity.php?from_date=2025-04-15!&to_date=2025-04-15"
@@ -23,4 +23,4 @@ class Config:
         },
     }
     # Ensure the tasks module is included using the old naming convention.
-    CELERY_INCLUDE = ['app.tasks']
+    include = ['app.tasks']

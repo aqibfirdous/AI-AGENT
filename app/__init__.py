@@ -4,7 +4,7 @@ from celery import Celery
 class Config:
     # ← your existing config.py values, e.g.:
     CELERY_BROKER_URL    = "CELERY_BROKER_URL"
-    CELERY_RESULT_BACKEND = "result_backend"
+    result_backend = "result_backend"
 
 def create_app():
     app = Flask(__name__)

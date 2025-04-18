@@ -1,7 +1,6 @@
 from flask import Flask
 from celery import Celery
-from config import Config
-
+from app.config import Config
 
 def create_app():
     app = Flask(__name__)

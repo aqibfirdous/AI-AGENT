@@ -5,7 +5,7 @@ class Config:
     SECRET_KEY = '3fae1b2c9d7e4e48b3c52d5c87a9fa83b1f8c9e0a84723d6e9b2ff71b3e2c412'
 
     # RabbitMQ configuration for Celery
-    CELERY_BROKER_URL = 'amqp://guest:guest@localhost:5672//'
+    CELERY_BROKER_URL = 'amqps://bbinvvqj:Q5UOXa2UpvsQP3zoOFb1WcNaPwgOCBUL@chimpanzee.rmq.cloudamqp.com/bbinvvqj'
     CELERY_RESULT_BACKEND = 'rpc://'
 
     # Provided API endpoint for task activity (adjust as needed)

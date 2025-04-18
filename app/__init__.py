@@ -15,8 +15,8 @@ def create_app():
 def make_celery(app):
     celery = Celery(
         app.import_name,
-        broker=app.config["amqps://bbinvvqj:Q5UOXa2UpvsQP3zoOFb1WcNaPwgOCBUL@chimpanzee.rmq.cloudamqp.com/bbinvvqj"],       # ← pull from config
-        backend=app.config["rpc://"],  # ← pull from config
+        broker=app.config["CELERY_BROKER_URL"],       # ← pull from config
+        backend=app.config["result_backend"],  # ← pull from config
         include=["app.tasks"],                        # ← auto‑load your tasks
     )
     celery.conf.update(app.config)

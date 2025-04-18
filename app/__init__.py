@@ -1,11 +1,10 @@
-# app/__init__.py
 from flask import Flask
 from celery import Celery
 
 class Config:
     # ← your existing config.py values, e.g.:
-    CELERY_BROKER_URL    = "amqps://bbinvvqj:Q5UOXa2UpvsQP3zoOFb1WcNaPwgOCBUL@chimpanzee.rmq.cloudamqp.com/bbinvvqj"
-    CELERY_RESULT_BACKEND = "rpc://"
+    CELERY_BROKER_URL    = "CELERY_BROKER_URL"
+    CELERY_RESULT_BACKEND = "result_backend"
 
 def create_app():
     app = Flask(__name__)

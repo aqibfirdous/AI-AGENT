@@ -6,7 +6,7 @@ from collections import Counter, defaultdict
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from fpdf import FPDF
-from config import Config
+from app.config import Config
 import os
 from dotenv import load_dotenv
 import logging

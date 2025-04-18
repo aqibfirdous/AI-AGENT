@@ -1,0 +1,68 @@
+Report Generated at: 2025-04-16 09:50:09
+Total records in API response: 17
+
+Task Status Counts:
+  - In Progress: 9
+  - Completed: 8
+
+Involved Colleges:
+  - 
+  - 
+DR. VISHWANATH KARAD MIT WORLD PEACE UNIVERSITY
+  - 
+MAKAUT
+  - 
+SR GROUP OF INSTITUTIONS
+  - 
+SRMAP university
+  - ACADEMY OF TECHNOLOGY MANAGEMENT AND SCIENCE
+  - AMRUTVAHINI COLLEGE OF ENGINEERING, SANGAMNER
+  - BECKLEY COLLEGE
+  - FR. CONCEICAO RODRIGUES COLLEGE OF ENGINEERING
+  - Jamia Hamdard
+  - MIT Art Design & Technology University ,Pune
+  - Panjab University.Chandigarh
+  - S K N SINHGAD COLLEGE OF ENGINEERING
+  - SRM INSTITUTE OF SCIENCE AND TECHNOLOGY
+  - SYMBIOSIS INSTITUTE OF TECHNOLOGY
+
+Tasks per College:
+  - : 1
+  - 
+SRMAP university: 1
+  - Jamia Hamdard: 2
+  - FR. CONCEICAO RODRIGUES COLLEGE OF ENGINEERING: 1
+  - AMRUTVAHINI COLLEGE OF ENGINEERING, SANGAMNER: 1
+  - 
+DR. VISHWANATH KARAD MIT WORLD PEACE UNIVERSITY: 1
+  - S K N SINHGAD COLLEGE OF ENGINEERING: 1
+  - Panjab University.Chandigarh: 2
+  - 
+SR GROUP OF INSTITUTIONS: 1
+  - ACADEMY OF TECHNOLOGY MANAGEMENT AND SCIENCE: 1
+  - 
+MAKAUT: 1
+  - SRM INSTITUTE OF SCIENCE AND TECHNOLOGY: 1
+  - MIT Art Design & Technology University ,Pune: 1
+  - BECKLEY COLLEGE: 1
+  - SYMBIOSIS INSTITUTE OF TECHNOLOGY: 1
+
+Tasks per User (by email):
+  1. anushkaagarwal658@gmail.com: 1
+  2. shalinipadakandla101108@gmail.com: 1
+  3. khansyrian1@gmail.com: 1
+  4. iam.shadab.khan.1001@gmail.com: 1
+  5. aqibfirdous93@gmail.com: 1
+  6. madhurideshmukh07@gmail.com: 1
+  7. mihirchoubisa89@gmail.com: 1
+  8. prashanthatekar9623@gmail.com: 1
+  9. varshasinbox1@gmail.com: 2
+  10. muskandwivedi2106@gmail.com: 1
+  11. sakshisen01201206@gmail.com: 1
+  12. ggauravg26@gmail.com: 1
+  13. sanjaybaskar.in@gmail.com: 1
+  14. thanushthan124@gmail.com: 1
+  15. harshakhasa12@gmail.com: 1
+  16. alokchawat@gmail.com: 1
+
+Overall Total Tasks (from API 'total' field): 17

@@ -1,4 +1,4 @@
-from app import celery
+from. import celery
 from app.report_generator import generate_report, send_report_via_email
 import logging
 
